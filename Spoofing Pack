@@ -1,0 +1,8 @@
+-- Babyhamsta Dex Bypass (these are not made by me)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/Bypasses.lua", true))()
+
+--Walkspeed Spoofer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/walkspeed", true))()
+
+--Velocity Check Spoofer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/vel%20check", true))()

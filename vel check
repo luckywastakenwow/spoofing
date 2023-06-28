@@ -1,0 +1,15 @@
+local mt = getrawmetatable(game)
+local oldnc = mt.__namecall
+setreadonly(mt,false)
+
+local LocalPlayer = game:GetService("Players").LocalPlayer
+
+mt.__namecall = function(self,...)
+	local method = getnamecallmethod()
+	if method == "Kick" and self == LocalPlayer then
+		return
+	end
+	return oldnc(self,...)
+end
+
+setreadonly(mt,true)

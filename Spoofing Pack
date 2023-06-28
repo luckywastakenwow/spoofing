@@ -1,3 +1,5 @@
+getgenv().SendNotifications = true
+
 -- Anthony's Anti Chat-Logger
 loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/antilogger", true))()
 
@@ -9,3 +11,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoo
 
 -- Velocity Check Spoofer
 loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/vel%20check", true))()
+
+if getgenv().SendNotifications == true then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "pokemon34643's Spoofing Pack",
+        Text = "Spoofing Pack has been loaded!",
+        Icon = "rbxassetid://6238537240",
+        Duration = 5,
+    })
+end

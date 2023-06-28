@@ -9,6 +9,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scrip
 -- Walkspeed Spoofer
 loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/walkspeed", true))()
 
+-- Walkspeed Spoofer 2
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/walkspeed%203", true))()
+
 -- Velocity Check Spoofer
 loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/vel%20check", true))()
 

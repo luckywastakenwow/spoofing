@@ -3,6 +3,9 @@ getgenv().SendNotifications = true
 -- Anthony's Anti Chat-Logger
 loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/antilogger%20no%20notif", true))()
 
+-- Anthony's Anti Gui Detection
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/anti%20gui%20detect", true))()
+
 -- Babyhamsta Dex Bypass (these are not made by me)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/Bypasses.lua", true))()
 

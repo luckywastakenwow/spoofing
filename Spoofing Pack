@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/anti%20http%20spy"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/spoofing/main/anti%20http%20spy", true))()
 
 getgenv().SendNotifications = true
 

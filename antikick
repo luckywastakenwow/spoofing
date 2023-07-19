@@ -23,7 +23,7 @@ OldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(...)
 	if (getgenv().ED_AntiKick.CheckCaller and not checkcaller() or true) and stringlower(getnamecallmethod()) == "kick" then
 		if getgenv().ED_AntiKick.SendNotifications then
 			StarterGui:SetCore("SendNotification", {
-				Title = "Exunys Developer",
+				Title = "AntiKick",
 				Text = "The script has successfully intercepted an attempted kick.",
 				Icon = "rbxassetid://6238540373",
 				Duration = 2,

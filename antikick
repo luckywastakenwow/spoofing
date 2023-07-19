@@ -38,7 +38,7 @@ end))
 
 if getgenv().ED_AntiKick.SendNotifications then
 	StarterGui:SetCore("SendNotification", {
-		Title = "Exunys Developer",
+		Title = "AntiKick",
 		Text = "Anti-Kick script loaded!",
 		Icon = "rbxassetid://6238537240",
 		Duration = 3,

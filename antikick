@@ -13,7 +13,7 @@ local Players, StarterGui, OldNamecall = game:GetService("Players"), game:GetSer
 --// Global Variables
 
 getgenv().ED_AntiKick = {
-	SendNotifications = true, -- Set to true if you want to get notified for every event
+	SendNotifications = false, -- Set to true if you want to get notified for every event
 	CheckCaller = false -- Set to true if you want to disable kicking by other executed scripts
 }
 
